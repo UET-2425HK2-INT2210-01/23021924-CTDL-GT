@@ -1,0 +1,8 @@
+// Sắp xếp độ phức tạp theo thứ tự tăng dần
+
+// 2^n                                 => O(1)
+// 2^(log(n)); 3*n + 100*log(n); 4*n   => O(n)
+// n*log(n); 4*n*log(n) + 2*n          => O(nlog(n))
+// n^2 + 10*n                          => O(n^2)    
+// n^3                                 => O(n^3)
+// 2^n                                 => O(2^n)
